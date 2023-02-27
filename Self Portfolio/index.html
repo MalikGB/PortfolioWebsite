@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="./Index.css" type="text/css">
+    <meta charset= "UTF-8">
+    <meta http-equiv="X-UA-Compatible" content = "IE=edge">
+    <meta name = "viewport" content="width=device-width, inital-scale =1.0">
+
+</head>
+<body>
+    <!-- 
+        Please include on your website:
+    - an image of either yourself or a chosen avatar
+    - a link to your LinkedIn
+    - a brief “About Me” or “Experience section
+    - a link to your GitHub
+
+     -->
+     <div class="windowForm" id="windowForm" style="display: none;">
+        <button onclick="toggleWindow()" style="margin-left: 130%; font-size: x-large; margin-top: -3%;">X</button>
+        <h2>Reach me through my Email:</h2>
+        <a href="mailto:maliktifah378@gmail.com" class="emailLink" style="margin-left: 15%;">MalikTifah378@gmail.com</a>
+        <br><br>
+        <h2>Contact me through social media:</h2>
+        <div style="display: flex;">
+            <div style="margin-left: 30%;">
+                <a href="https://www.linkedin.com/in/malik-tifah/">
+                    <img src ="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn_Image" class="externalIcon">
+                </a>
+            </div>
+        
+            <div style="margin-left: 10%; display: flex; ">
+                <a href = "https://github.com/MalikGB">
+                    <img src = "https://cdn-icons-png.flaticon.com/512/25/25231.png" alt = "Github_Image" class="externalIcon">
+                </a> 
+            </div>
+        </div>
+     </div>
+     <div class = "linkSection" id="linkSection">
+        <hr>
+           <div class="linkText">
+            <h1 style="padding-right:5%;">Malik Tifah</h1>
+               <div class = "dropdown">
+                <button class = "dropbtn" style="margin-left: 20%; margin-top:18%;">Projects</button>
+                <div class = "dropdown-content">
+                    <a href="#PersonalProjects">Overview</a>
+                    <a href="">Unreal Engine 4</a>
+                    <a href="">Azure</a>
+                    <a href="">Desktop Apps</a>
+                </div>
+               </div>
+               <div>
+                
+                <a href="#Experience" style="text-decoration: none;">
+                    <button class="dropbtn" style="margin-left: 20%;">Experience</button>
+                </a>
+                <a href="#About" style="text-decoration: none;">
+                    <button class="dropbtn" style="margin-left: 20%;">About me</button>
+                </a>
+                <a href="./img/Resume.pdf" target="_blank" style="text-decoration: none;">
+                    <button class="dropbtn" style="margin-left: 20%;">Resume</button>
+                </a>
+
+                <button class="dropbtn" style="margin-left: 20%;" onclick="toggleWindow()">Contact me</button>
+                
+               </div>
+               <div style="margin-left: 30%; display:flex;">
+                    <a href="https://www.linkedin.com/in/malik-tifah/">
+                        <img src ="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn_Image" class="externalIcon">
+                    </a>
+               </div>
+               
+               <div style="margin-left: 5%; display: flex; ">
+                    <a href = "https://github.com/MalikGB">
+                        <img src = "https://cdn-icons-png.flaticon.com/512/25/25231.png" alt = "Github_Image" class="externalIcon">
+                     </a> 
+               </div>
+           </div>
+        <hr>
+       </div>
+    <div class="backgroundImage">
+    <div style="text-align: center;">
+        
+            <div class="introSection">
+                <img src="img/Selfpicture.jpg" class="profileImage" alt ="Profile picture">
+                
+                <p class="introText">Malik Tifah</p>
+                <p class="introText">Graduate from Lewis University with a B.A in Computer Science</p>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <p style="padding-top: 10%;" id="About"></p>
+    <div class="aboutMeSection" >
+        
+        <div style="width: 100%;">
+        <hr>
+            <h2 style="margin-top: 0%; text-align: center;">About me</h2>
+        <hr>
+        </div>
+       
+    </div>
+    <div class="aboutMeText">
+        <p style="margin-top:0%;"></p>
+        
+        <ul class="aboutMeList">
+            <h3>A winter 2022 graduate from Lewis University that has have a passion for software development.<br>
+            I am always trying to either improve my software development skills or trying new facets of the field<br>
+            I have worked on a variety of  projects using diffrent types of software.</h3>
+        </ul>
+    </div>
+    <p style="margin-top: 5%;"></p>
+    <div class="softwareIcons">
+            <h3 style="text-align: left;">Here is a list of some of the applications that I have experience building software in:</h3>
+        <div style="display:flex">
+            <!-- To do -->
+            <!-- Link to Unreal Projects -->
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Unreal_Engine_4_logo_and_wordmark.svg/1856px-Unreal_Engine_4_logo_and_wordmark.svg.png" 
+            alt="Unreal Engine" style="height: 10%; width: 10%; padding-right: 5%;margin-left: 5%;">
+            <!-- Link to Desktop/ Java projects -->
+            <img src="https://www.eclipse.org/org/artwork/images/eclipse_ide_logo.png" alt="Eclipse" style="height: 20%; width: 20%; padding-right: 5%; margin-bottom: 2%;">
+        </div>
+        <!-- Link to Azure projects -->
+        <div style="display:flex;">
+            <img src="https://itcgroup.io/Image%20for%20Blog/Microsoft%20Azure%20and%20Why%20we%20choose%20it-/Microsoft_Azure-Logo.wine.png" 
+            alt="Microsoft Azure" style="height: 20%; width: 20%; padding-right: 5%; margin-bottom: -2%;">
+            <!-- Link to C# / misc projects -->
+            <img src="https://assets.stickpng.com/images/62a79050e42d729d928b1756.png" alt="Visual Studio Code" style="height: 20%; width: 20%; padding-right: 5%;">
+        </div>
+    </div>
+    <p style="padding-top:10%;" id="Experience"></p>
+
+        <div class="companyText" >
+            
+            <div>
+                <div style="width: 100%;">
+                <hr>
+                <h2 class="experienceText">Professional experience</h2>
+                <hr>
+                </div>
+
+                <div>
+                    <div style="display: flex; padding-bottom: 10%;">
+                    <h1 class="yearText">&#x2022; 2022</h1> 
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Ulta_Beauty_logo.svg/1200px-Ulta_Beauty_logo.svg.png" alt="Ulta_Icon" style="height: 20%; width: 20%;">
+                    <p style="margin-left: 115px">
+                        Ulta Beauty is a American Beauty product chain headquatred in Bolingbrook, IL<br>
+                        I worked as a software QA intern in Fall of 2022<br>
+                        I was responsible for creating and executing scripts to test their warehouse and ecommerce functionality.<br>
+                        The scripts were primarily written in Java and used Selnium to execute tests.
+                    </p>
+                    </div>
+                    <div class = "vl">
+
+                    </div>
+                    <div style="display: flex;">
+                        <h1 class="yearText">&#x2022; 2021</h1>
+                        <img src="https://static.wikia.nocookie.net/americangirl/images/a/aa/Webfoot_Technologies_logo.png/revision/latest?cb=20161130084942" alt="Webfoot_Icon">
+                            <p style="margin-left: 105px;">Webfoot Technologies is a video game development company based in Illinois.<br>
+                            Known for video game titles like Legacy of Goku.<br>
+                            I worked as a programmer to test and create new features for their commerical games in C++ </p>
+                        </div>
+                </div>
+            </div>
+        </div>
+         
+        <p style="padding-top: 10%;" id="PersonalProjects"></p>
+        <div>
+            <div>
+            <hr>
+            <h2 class="projectText">Personal Projects</h2>
+            <hr>
+            </div>
+            <div style="text-align: center; width: 100%;">
+            <table class ="projectTable">
+                <tr>
+                    <td>Name</td>
+                    <td>Description</td>
+                    <td>Link</td>
+                    
+                </tr>
+                <tr>
+                    <td><h2>Aidan</h2></td>
+                    <td> Worked on a team to create a rendering software using Unreal Engine 4.<br>
+                        The application works alongside data created in Revit (An architectural engineer software) and proceduarally generates 3D models of building plans.<br>
+                        Once generated users could virtually tour the buliding within Unreal Engine 4.
+                    to procedurally generate 3D models created in Revit<br>that users can walk around and interact with.</td>
+                    <td> <a href="https://github.com/AidanInc/Aidan">Aidan Github</a></td>
+                    
+                </tr>
+                <tr>
+                    <td><h2>Quality Sudios webpage</h2></td>
+                    <td>Worked with a team to create and host a webpage for a barbershop in Joliet,IL<br>
+                    The webpage was built (using HTML, CSS, Node.js), and hosted on Microsoft Azure.<br>
+                    Users who access the webpage can learn about services and products aviable at the establishment.<br></td>
+                    <td><a href = "https://github.com/MalikGB/QualityStudiosWebpage">Quality Studios Github page</a></td>
+                    
+                </tr>
+            </table>
+        </div>
+        </div>
+        <script>
+            const bg = document.getElementById("linkSection");
+            const form = document.getElementById("windowForm");
+        
+            window.addEventListener('scroll',function(){
+                offsetCheck();
+            })
+            window.addEventListener('load', function(){
+               offsetCheck();
+            })
+        
+            function offsetCheck(){
+                if(window.pageYOffset>10){
+                    bg.style.position = "fixed";
+                    bg.style.width = "100%";
+                    bg.style.top = "0%";
+                }
+                else{
+                    bg.style.position ="relative";
+                    bg.style.width = "100%";
+                }
+                
+            }
+            function toggleWindow(){
+                console.log("Hi");
+                if(form.style.display=="none"){
+                    form.style.display="block"
+                }
+                else{
+                    form.style.display="none"
+                }
+            }
+            </script>
+    </body>
+</html>

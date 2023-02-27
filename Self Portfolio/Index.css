@@ -1,0 +1,178 @@
+p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.profileImage{
+    border-radius: 50%;
+    border:6px solid white;
+    width: 10%;
+    height: 10%;
+    text-align: center;
+    margin-left:0%;
+    
+}
+.backgroundImage{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    z-index: -1;
+    background-image: url("./img/gettyimages-584791924.jpg");
+}
+.introSection{
+    background-color: rgba(255, 0, 0, 0.5);
+    width: 100%;
+    white-space: nowrap;
+    padding-bottom: 5%;
+    
+}
+hr{
+    text-shadow: 2px 2px;
+    height: 4px;
+    background-color: black;
+}
+
+.vl{
+  border-left: 4px solid gray;
+  margin-left: 5%;
+  display: absolute;
+  margin-top: -12%;
+  height: 100px;
+}
+
+.linkText{
+    white-space: nowrap;
+    display: flex;
+    width: 100%;
+    
+}
+.linkSection{
+    background: rgb(188, 188, 188);
+    z-index: 2;
+}
+.externalIcon{
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+
+}
+.projectTable{
+    border: 1px solid black;
+    margin-left: 5%;
+   
+}
+th,td{
+    border: 1px solid black;
+}
+.aboutMeSection{
+    display:flex;
+    width: 100%;
+    white-space: nowrap;
+}
+
+.aboutMeText{
+    text-align: left;
+    width: 100%;
+}
+.hiThere{
+    font-size: xx-large;
+    text-align: center;
+    
+}
+.introText{
+    font-size: xx-large;
+    text-align: center;
+    color: white;
+    
+}
+.companyText{
+    text-align: left;
+}
+.aboutMeList{
+    text-align: left;
+    margin-left: 20%
+}
+.experienceText{
+    text-align: center;
+}
+.projectText{
+   text-align: center;
+}
+.softwareIcons{
+    margin-left: 30%;
+    width: 100%;
+}
+.yearText{
+    padding-right: 5%;
+    padding-left: 2%;
+    white-space: nowrap;
+}
+.dropbtn {
+    background-color: rgb(188, 188, 188);
+    color: white;
+    padding: 16px;
+    font-size: 15px;
+    margin-top: 5%;
+    border: none;
+    cursor: pointer;
+  }
+  
+.windowForm{
+    background-color: rgb(196, 196, 196);
+    position: fixed;
+    display: none;
+    margin-top: 15%;
+    margin-left: 30%;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 8%;
+}
+.emailLink{
+    font-size: large;
+
+}
+.emailLink:visited{
+    color: blue;
+}
+  .dropbtn:hover{
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+  }
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: black;
+  }
